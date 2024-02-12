@@ -1,0 +1,27 @@
+<style>
+  .shadow-button{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    transition: margin-left 0.15s, 
+     margin-top 0.15s,
+     box-shadow 0.15s;
+  }
+
+  .shadow-button:active{
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+  }
+</style>
+
+<button class="shadow-button">
+  Shadow
+</button>
